@@ -1,0 +1,96 @@
+
+.container {
+  width: 100%;
+}
+
+.team {
+  width: 100%;
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.instructor {
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 30px 50px;
+  transition: transform 0.3s ease;
+  border: 2px solid #eee;
+  box-shadow: 0 0 8px #ccc;
+  margin-bottom: 50px;
+}
+
+.instructor:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContent img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.title {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.title h4 {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.title h4:first-child {
+  font-size: 22px;
+  color: var(--color-gold-1);
+}
+
+.title h4:last-child {
+  font-size: 20px;
+}
+
+.infoContent p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.infoContent p:last-child {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+
+
+
+.showInfo {
+  opacity: 1;  
+  max-height: 500px;
+  transition: max-height 0.3s ease, opacity 0.5s ease 0.3s;
+}
+
+.hideInfo {
+  max-height: 0px;
+  opacity: 0;
+  transition: max-height 0.3s ease 0.3s, opacity 0.5s ease;
+}

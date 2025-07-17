@@ -1,0 +1,27 @@
+
+import Wraper from '../../wraper/Wraper.jsx'
+import { useOutletContext, Link } from 'react-router-dom'
+import styles from './ChooseYourSection.module.css'
+
+const ChooseYourSection = () => {
+
+  const { data, language } = useOutletContext()
+  const currentLang = data[language.lang1]
+
+  return (
+    <Wraper title={currentLang.titles.chooseYourSection}>
+      <div className={styles.allSections} >
+        {Object.keys(currentLang.chooseYourSection).map(sectionKey => {
+          return (
+            <Link to={`/sections/${sectionKey}`} className={styles.oneSection} key={currentLang.chooseYourSection[sectionKey].id}>
+              <img src={currentLang.chooseYourSection[sectionKey].image} alt="sections instrument" />
+              <h4>{currentLang.chooseYourSection[sectionKey].title}</h4>
+            </Link>
+          )
+        })}
+      </div>
+    </Wraper>
+  )
+}
+
+export default ChooseYourSection

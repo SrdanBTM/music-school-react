@@ -1,0 +1,80 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', sans-serif;
+}
+
+:root {
+  --color-gold-1: #b8761a;
+  --color-gold-2: #b6823a;
+  --color-gold-3: #f2b55f;
+  --color-gold-4: #f9a632;
+  --color-gold-5: #f8ddb8;
+  --btn-cover: rgba(0,0,0,0.2);
+  --bg-color1: #e6e1d3;
+  --bg-color2: #534825;
+}
+
+
+nav ul li .active {
+  color: var(--color-gold-4);
+}
+
+.button {
+  all: unset;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 260px;
+  height: 55px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.15);
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.15);
+}
+
+.button:hover::before, 
+.button:hover::after {
+  width: 0;
+  transition: width 0.4s ease-in-out;
+}
+
+
+.button-gray {
+  background-color: #555;
+}
+
+.button-gold {
+  background-color: var(--color-gold-1);
+}
+
+.button-width100 {
+  width: 100%;
+}
+
+

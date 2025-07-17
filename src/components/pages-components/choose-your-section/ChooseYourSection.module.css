@@ -1,0 +1,40 @@
+
+
+
+
+
+.allSections {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.oneSection {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.15s ease-in;
+}
+
+.oneSection:hover {
+  transform: scale(1.07);
+  transition: transform 0.2s ease-out;
+}
+
+.oneSection img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #555;
+}
+
+.oneSection h4 {
+  color: var(--color-gold-1);
+  font-size: 18px;
+  margin-top: 15px;
+}

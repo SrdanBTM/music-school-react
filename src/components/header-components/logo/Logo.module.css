@@ -1,0 +1,21 @@
+
+
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 5px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title span {
+  color: #fff;
+}

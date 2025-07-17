@@ -1,0 +1,46 @@
+
+.container {
+  width: 650px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form input,
+.container form textarea {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.container form input:focus,
+.container form textarea:focus {
+  border: 2px solid #777;
+}
+
+.container form button {
+  margin-top: 30px;
+}
+
+
+
+.submitButtonSendBg {
+  background-color: var(--color-gold-1);
+}
+
+.submitButtonErrorBg {
+  background-color: rgb(243, 60, 60);
+}
+
+.submitButtonLoadingBg {
+  background-color: rgb(101, 152, 171);
+}
+
+.submitButtonSuccessBg {
+  background-color: rgb(46, 163, 46);
+}

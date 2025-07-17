@@ -1,0 +1,13 @@
+
+.paddingOtherPages {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.paddingHomePage {
+  padding-bottom: 200px;
+}
+
+.container {
+  background-color: var(--bg-color1);
+}

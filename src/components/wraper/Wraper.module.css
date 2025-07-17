@@ -1,0 +1,18 @@
+
+.wraper {
+  justify-self: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wraper h3 {
+  font-size: 30px;
+  margin-bottom: 80px;
+  padding: 3px;
+  border-bottom: 3px solid var(--color-gold-1);
+}
