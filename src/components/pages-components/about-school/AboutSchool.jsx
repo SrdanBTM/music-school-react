@@ -8,6 +8,7 @@ const AboutSchool = () => {
   const { data, language } = useOutletContext()
   const currentLang = data[language.lang1]
   
+  const BASE_URL = import.meta.env.BASE_URL
 
   return (
     <Wraper title={currentLang.titles.aboutTheSchool}>
@@ -19,7 +20,7 @@ const AboutSchool = () => {
         })}
       </div>
       <div className={styles.image}>
-        <img src='/images/background/bg7.jpeg' alt="school image" />
+        <img src={`${BASE_URL}images/background/bg7.jpeg`} alt="school image" />
       </div>
     </Wraper>
   )

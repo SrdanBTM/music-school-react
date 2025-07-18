@@ -83,16 +83,16 @@ const data = {
       contactDetails: {
           map: {
               title: '123 Music Avenue, Your City',
-              image: '/images/icons/map-icon-gold.png',
+              image: 'images/icons/map-icon-gold.png',
               href: 'https://www.google.com/maps?q=40.785091,-73.968285" target="_blank'
           },
           phone: {
               title: '+12 (0) 34 567-8989',
-              image: '/images/icons/phone-icon-gold.png'
+              image: 'images/icons/phone-icon-gold.png'
           },
           email: {
               title: 'info@harmonymusicschool.com',
-              image: '/images/icons/email-icon-gold.png',
+              image: 'images/icons/email-icon-gold.png',
               href: 'mailto:email@example.com" target="_blank',
           },
       },
@@ -123,25 +123,25 @@ const data = {
           contact: {
               map: {
                   text: '123 Music Avenue',
-                  image: '/images/icons/map-icon-grey.png'
+                  image: 'images/icons/map-icon-grey.png'
               },
               phone: {
                   text: '+12 (0) 34 567-8989',
-                  image: '/images/icons/phone-icon-grey.png'
+                  image: 'images/icons/phone-icon-grey.png'
               },
               email: {
                   text: 'info@harmonymusicschool.com',
-                  image: '/images/icons/email-icon-grey.png'
+                  image: 'images/icons/email-icon-grey.png'
               }
           },
           operatingHours: {
               mondayFriday: {
                   text: 'Monday - Friday : 8:00 - 17:00',
-                  image: '/images/icons/clock-icon-grey.png'
+                  image: 'images/icons/clock-icon-grey.png'
               },
               saturdaySunday: {
                   text: 'Saturday, Sunday : Closed',
-                  image: '/images/icons/clock-icon-grey.png'
+                  image: 'images/icons/clock-icon-grey.png'
               },
           },
 
@@ -187,7 +187,7 @@ const data = {
               dataRow: '1',
               name: 'Olivia Lewis',
               section: 'Violin',
-              img: '/images/instructors/olivia-lewis.png',
+              img: 'images/instructors/olivia-lewis.png',
               basicInfo: 'Violinist merging classical and modern styles with expressive, technique-focused teaching.',
               about: 'Olivia is a talented violinist with a rich musical career. Her teaching encompasses both classical and contemporary styles, focusing on playing technique and emotional interpretation. Olivia also participates in musical ensembles and orchestras, providing students with insights into the professional music world.'
           },
@@ -196,7 +196,7 @@ const data = {
               dataRow: '1',
               name: 'Emily Clark',
               section: 'Vocal Training ',
-              img: '/images/instructors/emily-clark.png',
+              img: 'images/instructors/emily-clark.png',
               basicInfo: 'Vocal coach developing range, confidence, and emotional connection in performance.',
               about: 'Emily is a gifted vocalist and vocal technique instructor. With over five years of teaching experience, she helps students develop their vocal range and breathing techniques. Emily also conducts workshops on song interpretation and stage presence, guiding students on how to connect emotionally with the music and confidently deliver performances.'
           },
@@ -205,7 +205,7 @@ const data = {
               dataRow: '2',
               name: 'Daniel Green',
               section: 'Percussion',
-              img: '/images/instructors/daniel-green.png',
+              img: 'images/instructors/daniel-green.png',
               basicInfo: 'Percussionist inspiring rhythmic creativity and ensemble confidence through dynamic lessons.',
               about: 'Daniel is an expert in percussion with a background in various musical genres. As an instructor, he employs interactive techniques to help students understand rhythm and dynamics. His energetic teaching style motivates students to explore their musical abilities and develop their own style. Daniel also organizes group sessions, encouraging collaboration and helping students build confidence in ensemble performances.'
           },
@@ -214,7 +214,7 @@ const data = {
               dataRow: '2',
               name: 'Samantha King',
               section: 'Piano',
-              img: '/images/instructors/samantha-king.png',
+              img: 'images/instructors/samantha-king.png',
               basicInfo: 'Pianist blending technical mastery and musical theory for engaging, expressive lessons.',
               about: 'Samantha is an accomplished pianist with a deep passion for teaching students to connect with music through technique and expression. Her background in music theory enhances her lessons, allowing students to gain a thorough understanding of the instrument. Samantha often incorporates creative exercises to make lessons engaging and fun.'
           },
@@ -223,7 +223,7 @@ const data = {
               dataRow: '3',
               name: 'Michael Reed',
               section: 'Music Theory',
-              img: '/images/instructors/michael-reed.png',
+              img: 'images/instructors/michael-reed.png',
               basicInfo: 'Music theorist simplifying harmony and melody with tailored, interactive teaching methods.',
               about: 'Michael is an expert in music theory and composition, with a dedication to helping students grasp the core concepts of harmony, melody, and rhythm. He frequently organizes interactive workshops where students can apply theoretical knowledge in practical ways. His approach is tailored to each student, ensuring that every individual can thrive in their understanding of music theory.'
           },
@@ -232,7 +232,7 @@ const data = {
               dataRow: '3',
               name: 'David Carter',
               section: 'Guitar',
-              img: '/images/instructors/david-carter.png',
+              img: 'images/instructors/david-carter.png',
               basicInfo: 'Guitarist encouraging personal expression through classical and contemporary musical styles.',
               about: 'David is a seasoned guitarist with years of experience in both performing and teaching. He is passionate about sharing his love for the guitar and helping students develop their skills across a range of styles, from classical to contemporary. David’s lessons emphasize technique, creativity, and personal expression, giving each student the foundation to explore and create their own music.'
           }
@@ -243,37 +243,37 @@ const data = {
               title: 'PIANO',
               dataId: 'piano',
               id: 'chooseYourSectionPiano',
-              image: '/images/instruments/piano.jpg'
+              image: 'images/instruments/piano.jpg'
           },
           guitar: {
               title: 'GUITAR',
               dataId: 'guitar',
               id: 'chooseYourSectionGuitar',
-              image: '/images/instruments/guitar.jpg'
+              image: 'images/instruments/guitar.jpg'
           },
           violin: {
               title: 'VIOLIN',
               dataId: 'violin',
               id: 'chooseYourSectionViolin',
-              image: '/images/instruments/violin.jpg'
+              image: 'images/instruments/violin.jpg'
           },
           musicTheory: {
               title: 'MUSIC THEORY',
               dataId: 'theory',
               id: 'chooseYourSectionTheory',
-              image: '/images/instruments/theory.jpg'
+              image: 'images/instruments/theory.jpg'
           },
           percussion: {
               title: 'PERCUSSION',
               dataId: 'percussion',
               id: 'chooseYourSectionPercussion',
-              image: '/images/instruments/percussion.jpg'
+              image: 'images/instruments/percussion.jpg'
           },
           vocalTraining: {
               title: 'VOCAL TRAINING',
               dataId: 'vocal',
               id: 'chooseYourSectionVocal',
-              image: '/images/instruments/vocal.jpg'
+              image: 'images/instruments/vocal.jpg'
           }
       },
 
@@ -292,7 +292,7 @@ const data = {
               startDate: 'Classes start in September and continue through June.',
               instructorName: 'Samantha King',
               instructorDescription: ', a professional pianist with extensive experience, teaches students of all levels.',
-              image: '/images/instruments/piano.jpg',
+              image: 'images/instruments/piano.jpg',
               button: 'Join the Piano Section' 
           },
           guitar: {
@@ -303,7 +303,7 @@ const data = {
               startDate: 'Classes begin in September and run throughout the school year.',
               instructorName: 'David Carter',
               instructorDescription: ', a skilled guitarist with a passion for teaching, uses a hands-on approach tailored for beginners.',
-              image: '/images/instruments/guitar.jpg',
+              image: 'images/instruments/guitar.jpg',
               button: 'Join the Guitar Section'
           },
           violin: {
@@ -314,7 +314,7 @@ const data = {
               startDate: 'Classes begin in September, with weekly lessons.',
               instructorName: 'Olivia Lewis',
               instructorDescription: ', an experienced violinist with international performance background, offers personalized guidance.',
-              image: '/images/instruments/violin.jpg',
+              image: 'images/instruments/violin.jpg',
               button: 'Join the Violin Section'
           },
           musicTheory: {
@@ -325,7 +325,7 @@ const data = {
               startDate: 'Classes commence in September.',
               instructorName: 'Michael Reed',
               instructorDescription: ', a seasoned music theory expert, provides in-depth instruction to support practical musicianship.',
-              image: '/images/instruments/theory.jpg',
+              image: 'images/instruments/theory.jpg',
               button: 'Join the Music Theory Section'
           },
           percussion: {
@@ -336,7 +336,7 @@ const data = {
               startDate: 'Classes begin in September.',
               instructorName: 'Daniel Green',
               instructorDescription: ', an experienced percussionist and educator, helps students develop a strong rhythmic foundation.',
-              image: '/images/instruments/percussion.jpg',
+              image: 'images/instruments/percussion.jpg',
               button: 'Join the Percussion Section'
           },
           vocalTraining: {
@@ -347,7 +347,7 @@ const data = {
               startDate: 'Classes begin in September.',
               instructorName: 'Emily Clark',
               instructorDescription: ', a professional vocalist with extensive experience, expertly trains voices of all types and levels.',
-              image: '/images/instruments/vocal.jpg',
+              image: 'images/instruments/vocal.jpg',
               button: 'Join the Vocal Training Section'
           }
       }
@@ -436,16 +436,16 @@ const data = {
       contactDetails: {
           map: {
               title: '123 Musikallee, Ihre Stadt',
-              image: '/images/icons/map-icon-gold.png',
+              image: 'images/icons/map-icon-gold.png',
               href: 'https://www.google.com/maps?q=40.785091,-73.968285" target="_blank'
           },
           phone: {
               title: '+12 (0) 34 567-8989',
-              image: '/images/icons/phone-icon-gold.png'
+              image: 'images/icons/phone-icon-gold.png'
           },
           email: {
               title: 'info@harmonymusicschool.com',
-              image: '/images/icons/email-icon-gold.png',
+              image: 'images/icons/email-icon-gold.png',
               href: 'mailto:email@example.com" target="_blank',
           }
       },
@@ -476,25 +476,25 @@ const data = {
           contact: {
               map: {
                   text: '123 Musikallee',
-                  image: '/images/icons/map-icon-grey.png'
+                  image: 'images/icons/map-icon-grey.png'
               },
               phone: {
                   text: '+12 (0) 34 567-8989',
-                  image: '/images/icons/phone-icon-grey.png'
+                  image: 'images/icons/phone-icon-grey.png'
               },
               email: {
                   text: 'info@harmonymusicschool.com',
-                  image: '/images/icons/email-icon-grey.png'
+                  image: 'images/icons/email-icon-grey.png'
               }
           },
           operatingHours: {
               mondayFriday: {
                   text: 'Montag - Freitag: 8:00 - 17:00',
-                  image: '/images/icons/clock-icon-grey.png'
+                  image: 'images/icons/clock-icon-grey.png'
               },
               saturdaySunday: {
                   text: 'Samstag, Sonntag: Geschlossen',
-                  image: '/images/icons/clock-icon-grey.png'
+                  image: 'images/icons/clock-icon-grey.png'
               }
           },
           footerText: 'Alle Rechte vorbehalten © 2025 - Musikschule Harmonious Heights'
@@ -537,7 +537,7 @@ const data = {
               dataRow: '1',
               name: 'Olivia Lewis',
               section: 'Violine',
-              img: '/images/instructors/olivia-lewis.png',
+              img: 'images/instructors/olivia-lewis.png',
               basicInfo: 'Violinistin, die klassische und moderne Stile mit ausdrucksvollem, technikfokussiertem Unterricht verbindet.',
               about: 'Olivia ist eine talentierte Violinistin mit einer reichen musikalischen Karriere. Ihr Unterricht umfasst sowohl klassische als auch zeitgenössische Stile, mit Fokus auf Spieltechnik und emotionaler Interpretation. Olivia spielt auch in musikalischen Ensembles und Orchestern und gibt den Schülern Einblicke in die Welt der professionellen Musik.'
           },
@@ -546,7 +546,7 @@ const data = {
               dataRow: '1',
               name: 'Emily Clark',
               section: 'Gesangstraining',
-              img: '/images/instructors/emily-clark.png',
+              img: 'images/instructors/emily-clark.png',
               basicInfo: 'Gesangslehrerin, die Stimmumfang, Selbstbewusstsein und emotionale Verbindung in Auftritten fördert.',
               about: 'Emily ist eine begabte Sängerin und Trainerin für Gesangstechnik. Mit über fünf Jahren Unterrichtserfahrung hilft sie den Schülern, ihren Stimmumfang und ihre Atemtechnik zu entwickeln. Emily leitet auch Workshops zur Liedinterpretation und Bühnenpräsenz und zeigt den Schülern, wie sie eine emotionale Verbindung zur Musik herstellen und selbstbewusst auftreten können.'
           },
@@ -555,7 +555,7 @@ const data = {
               dataRow: '2',
               name: 'Daniel Green',
               section: 'Schlagzeug',
-              img: '/images/instructors/daniel-green.png',
+              img: 'images/instructors/daniel-green.png',
               basicInfo: 'Perkussionist, der rhythmische Kreativität und Ensemble-Selbstvertrauen durch dynamischen Unterricht inspiriert.',
               about: 'Daniel ist ein Experte für Schlagzeug mit einem Hintergrund in verschiedenen Musikrichtungen. Als Lehrer verwendet er interaktive Techniken, um den Schülern Rhythmus und Dynamik zu vermitteln. Sein energischer Unterrichtsstil motiviert die Schüler, ihre musikalischen Fähigkeiten zu erforschen und ihren eigenen Stil zu entwickeln. Daniel organisiert auch Gruppensitzungen, die Zusammenarbeit fördern und den Schülern helfen, Vertrauen in Ensemble-Auftritte zu gewinnen.'
           },
@@ -564,7 +564,7 @@ const data = {
               dataRow: '2',
               name: 'Samantha King',
               section: 'Klavier',
-              img: '/images/instructors/samantha-king.png',
+              img: 'images/instructors/samantha-king.png',
               basicInfo: 'Pianistin, die technische Meisterschaft und Musiktheorie für fesselnde, ausdrucksstarke Lektionen verbindet.',
               about: 'Samantha ist eine erfahrene Pianistin mit einer tiefen Leidenschaft dafür, Schülern zu helfen, durch Technik und Ausdruck eine Verbindung zur Musik aufzubauen. Ihr Hintergrund in Musiktheorie bereichert ihren Unterricht und ermöglicht den Schülern ein umfassendes Verständnis des Instruments. Samantha integriert oft kreative Übungen, um den Unterricht spannend und unterhaltsam zu gestalten.'
           },
@@ -573,7 +573,7 @@ const data = {
               dataRow: '3',
               name: 'Michael Reed',
               section: 'Musiktheorie',
-              img: '/images/instructors/michael-reed.png',
+              img: 'images/instructors/michael-reed.png',
               basicInfo: 'Musiktheoretiker, der Harmonie und Melodie mit maßgeschneiderten, interaktiven Lehrmethoden vereinfacht.',
               about: 'Michael ist ein Experte für Musiktheorie und Komposition, der den Schülern die Kernkonzepte von Harmonie, Melodie und Rhythmus näherbringt. Er organisiert regelmäßig interaktive Workshops, in denen die Schüler theoretisches Wissen praktisch anwenden können. Sein Ansatz ist auf jeden Schüler abgestimmt, sodass jeder sein Verständnis der Musiktheorie optimal entfalten kann.'
           },
@@ -582,7 +582,7 @@ const data = {
               dataRow: '3',
               name: 'David Carter',
               section: 'Gitarre',
-              img: '/images/instructors/david-carter.png',
+              img: 'images/instructors/david-carter.png',
               basicInfo: 'Gitarrist, der persönliche Ausdruck durch klassische und zeitgenössische Musikstile fördert.',
               about: 'David ist ein erfahrener Gitarrist mit langjähriger Erfahrung sowohl im Spielen als auch im Unterrichten. Er ist leidenschaftlich daran interessiert, seine Liebe zur Gitarre zu teilen und den Schülern zu helfen, ihre Fähigkeiten in verschiedenen Stilen, von klassisch bis zeitgenössisch, zu entwickeln. Davids Unterricht legt Wert auf Technik, Kreativität und persönlichen Ausdruck und bietet jedem Schüler die Grundlage, eigene Musik zu erforschen und zu gestalten.'
           }
@@ -643,7 +643,7 @@ const data = {
               startDate: 'Der Unterricht beginnt im September und geht bis Juni.',
               instructorName: 'Samantha King',
               instructorDescription: ', eine professionelle Pianistin mit umfangreicher Erfahrung, unterrichtet Schüler aller Niveaus.',
-              image: '/images/instruments/piano.jpg',
+              image: 'images/instruments/piano.jpg',
               button: 'Zur Klaviersektion beitreten'
           },
           guitar: {
@@ -654,7 +654,7 @@ const data = {
               startDate: 'Der Unterricht beginnt im September und läuft das ganze Schuljahr über.',
               instructorName: 'David Carter',
               instructorDescription: ', ein talentierter Gitarrist mit einer Leidenschaft fürs Unterrichten, verwendet einen praxisorientierten Ansatz speziell für Anfänger.',
-              image: '/images/instruments/guitar.jpg',
+              image: 'images/instruments/guitar.jpg',
               button: 'Zur Gitarrensektion beitreten'
           },
           violin: {
@@ -665,7 +665,7 @@ const data = {
               startDate: 'Der Unterricht beginnt im September und findet wöchentlich statt.',
               instructorName: 'Olivia Lewis',
               instructorDescription: ', eine erfahrene Violinistin mit internationaler Bühnenerfahrung, bietet personalisierte Anleitung.',
-              image: '/images/instruments/violin.jpg',
+              image: 'images/instruments/violin.jpg',
               button: 'Zur Violinensektion beitreten'
           },
           musicTheory: {
@@ -676,7 +676,7 @@ const data = {
               startDate: 'Der Unterricht beginnt im September.',
               instructorName: 'Michael Reed',
               instructorDescription: ', ein erfahrener Musiktheorie-Experte, bietet fundierten Unterricht zur Unterstützung der praktischen Musikausbildung.',
-              image: '/images/instruments/theory.jpg',
+              image: 'images/instruments/theory.jpg',
               button: 'Zur Musiktheorie-Sektion beitreten'
           },
           percussion: {
@@ -687,7 +687,7 @@ const data = {
               startDate: 'Der Unterricht beginnt im September.',
               instructorName: 'Daniel Green',
               instructorDescription: ', ein erfahrener Schlagzeuger und Pädagoge, hilft den Schülern, ein starkes Rhythmusfundament zu entwickeln.',
-              image: '/images/instruments/percussion.jpg',
+              image: 'images/instruments/percussion.jpg',
               button: 'Zur Schlagzeugsektion beitreten'
           },
           vocalTraining: {
@@ -698,7 +698,7 @@ const data = {
               startDate: 'Der Unterricht beginnt im September.',
               instructorName: 'Emily Clark',
               instructorDescription: ', eine professionelle Sängerin mit umfassender Erfahrung, bietet exzellentes Training für Stimmen aller Arten und Niveaus.',
-              image: '/images/instruments/vocal.jpg',
+              image: 'images/instruments/vocal.jpg',
               button: 'Zur Gesangsausbildungssektion beitreten'
           }
       }

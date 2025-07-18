@@ -7,6 +7,8 @@ const Footer = ({ props, pathName }) => {
 
   const currentLang = data[language.lang1]
 
+  const BASE_URL = import.meta.env.BASE_URL
+
   return (
     <div className={styles.footer}>
 
@@ -20,7 +22,7 @@ const Footer = ({ props, pathName }) => {
             {Object.keys(currentLang.footer.contact).map(contactKey => {
               return (
                 <span key={contactKey}>
-                  <img src={currentLang.footer.contact[contactKey].image} alt="icon" />
+                  <img src={`${BASE_URL}${currentLang.footer.contact[contactKey].image}`} alt="icon" />
                   <p>{currentLang.footer.contact[contactKey].text}</p>
                 </span>
               )
@@ -34,7 +36,7 @@ const Footer = ({ props, pathName }) => {
             {Object.keys(currentLang.footer.operatingHours).map(contactKey => {
               return (
                 <span key={contactKey}>
-                  <img src={currentLang.footer.operatingHours[contactKey].image} alt="icon" />
+                  <img src={`${BASE_URL}${currentLang.footer.operatingHours[contactKey].image}`} alt="icon" />
                   <p>{currentLang.footer.operatingHours[contactKey].text}</p>
                 </span>
               )

@@ -10,6 +10,8 @@ const OneSection = () => {
   const toAttributeObject  = useParams()
   const sectionName = toAttributeObject.id
 
+  const BASE_URL = import.meta.env.BASE_URL
+
   return (
     <Wraper>
       <div className={styles.container}>
@@ -35,7 +37,7 @@ const OneSection = () => {
         </div>
 
         <div className={styles.image}>
-          <img src={currentLang.sections[sectionName].image} alt="section image" />
+          <img src={`${BASE_URL}${currentLang.sections[sectionName].image}`} alt="section image" />
         </div>
       </div>
     </Wraper>
