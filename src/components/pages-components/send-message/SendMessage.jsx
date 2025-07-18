@@ -8,6 +8,10 @@ import emailjs from '@emailjs/browser'
 
 
 const SendMessage = () => {
+  const userId = import.meta.env.VITE_EMAILJS_USER_ID
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+
   const { data, language } = useOutletContext()
   const currentLang = data[language.lang1]
 
@@ -31,10 +35,10 @@ const SendMessage = () => {
     setButtonColor(styles.submitButtonLoadingBg)
 
     emailjs.sendForm(
-      'service_as8sd28',
-      'template_1xn7fog',
+      serviceId,
+      templateId,
       e.target,
-      'xeUiKfkYZxe6vyKt1'
+      userId
     )
     .then(()=>{
       setButtonTitle(currentLang.button.success)
