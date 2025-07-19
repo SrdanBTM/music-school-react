@@ -10,7 +10,7 @@ const Footer = ({ props, pathName }) => {
   const BASE_URL = import.meta.env.BASE_URL
 
   return (
-    <div className={styles.footer}>
+    <div className={styles.container} style={{ backgroundImage: `url(${BASE_URL}images/background/bg2.jpg)` }}>
 
       {pathName === '/' && <AnyQuestions props={props} />}
 

@@ -1,4 +1,10 @@
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .text p {
   margin-bottom: 20px; 
   font-size: 18px;

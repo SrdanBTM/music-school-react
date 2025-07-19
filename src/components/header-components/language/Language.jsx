@@ -21,7 +21,7 @@ const Language = ({ props }) => {
   }
 
   return (
-    <div className={styles.language}>
+    <div className={styles.container}>
       <ul className={styles.mainNav}>
         <li
           onMouseEnter={() => setIsNavOpened('language')}

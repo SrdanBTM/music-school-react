@@ -1,6 +1,5 @@
 
-.footer {
-  background-image: url('/images/background/bg2.jpg');
+.container {
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -10,7 +9,7 @@
   z-index: 1;
 }
 
-.footer::after {
+.container::after {
   content: '';
   position: absolute;
   top: 0;

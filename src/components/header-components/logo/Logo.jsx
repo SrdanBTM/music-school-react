@@ -7,7 +7,7 @@ const Logo = ({ props }) => {
   const BASE_URL = import.meta.env.BASE_URL
 
   return (
-    <div className={styles.logo}>
+    <div className={styles.container}>
       <img src={`${BASE_URL}images/icons/logo-icon.png`} alt="logo icon" />
       <div className={styles.title}>
         <span>Harmonious Heights</span>

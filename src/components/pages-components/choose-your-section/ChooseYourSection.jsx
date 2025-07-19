@@ -12,7 +12,7 @@ const ChooseYourSection = () => {
 
   return (
     <Wraper title={currentLang.titles.chooseYourSection}>
-      <div className={styles.allSections} >
+      <div className={styles.container} >
         {Object.keys(currentLang.chooseYourSection).map(sectionKey => {
           return (
             <Link to={`/sections/${sectionKey}`} className={styles.oneSection} key={currentLang.chooseYourSection[sectionKey].id}>

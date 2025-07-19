@@ -6,7 +6,7 @@ const Social = () => {
   const BASE_URL = import.meta.env.BASE_URL
 
   return (
-    <div className={styles.social}>
+    <div className={styles.container}>
       <a href="https://www.youtube.com">
         <img src={`${BASE_URL}images/icons/youtube-icon.png`} alt="youtube icon" />
       </a>

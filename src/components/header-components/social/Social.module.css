@@ -1,18 +1,18 @@
 
 
 
-.social {
+.container {
   display: flex;
   align-items: center;
 }
 
-.social img {
+.container img {
   width: 35px;
   height: 35px;
   margin: 8px;
   cursor: pointer;
 }
 
-.social img:hover {
+.container img:hover {
   transform: scale(1.1);
 }

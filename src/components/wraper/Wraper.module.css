@@ -1,5 +1,5 @@
 
-.wraper {
+.container {
   justify-self: center;
   padding-top: 150px;
   padding-bottom: 50px;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.wraper h3 {
+.container h3 {
   font-size: 30px;
   margin-bottom: 80px;
   padding: 3px;
